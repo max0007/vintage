@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Vintage  </title>
+	<meta name="description" content="vintage house">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet"type="text/css" href="/path/to/jquery.easy-pie-chart.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/datepicker3.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/path/to/jquery.easy-pie-chart.js"></script>
+  <script src="excanvas.compiled.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="../dist/jquery.easypiechart.min.js"></script>
+
+
+	
+	
+
+
+
+
+</head>
+
+	<style>
+	body{
+		padding-top: 40px;
+	}
+	</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+  <!-- Navbar -->
+  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  		<div class="container">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				  </button>
+
+  				  <a href="" class="navbar-brand">Vintage House</a>
+  			    </div><!-- Navbar Header-->
+  			    <div class="collapse navbar-collapse" id="navbar-collapse">
+  				  <a href="https://www.youtube.com/watch?v=ouFRQGl_A0I" class="btn btn-primary btn-md active navbar-right"> Watch Video </a>
+
+<div class="row">
+  <div class="col-sm-2">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default navbar-left" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control navbar-middle" placeholder="Search for...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+        
+  				<ul class="nav navbar-nav">
+            <li><a href="index.html">Home </a> 
+            <li><a href="gallery1.html">Gallery</a> 
+            <li><a href="features.html">Features</a> 
+            <li><a href="stores.html">Store</a> 
+            <li><a href="contactus.html">ContactUs</a> 
+              
+          </ul>
+  			</div>
+  		</div><!-- End Container-->
+  	</nav><!-- End navbar -->
+
+ 
+<!-- Gallery -->
+  		<div class="container text-center">
+      <div class="container ">
+    <section>
+          <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="4"></li>
+            <li data-target="#screenshot-carousel" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/watch1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Vintage Watch</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/recordplayer1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Record Player</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/book1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Vintage Books</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+            <div class="item">
+             <img src="images/girl1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Vintage Car</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+            <div class="item">
+             <img src="images/typewritter1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Typewritter</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+            <div class="item">
+             <img src="images/iron1.jpg" alt="Text of the image">
+              <div class="carousel-caption">
+                <h3>Iron Made</h3>
+                <p>A period in which something was made or was begun.</p>
+              </div>
+            </div>
+
+          </div><!-- End Carousel inner -->
+          <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- End Carousel -->
+
+    </section>
+  </div>
+
+
+ <!-- Charts discription and update chart -->
+ <div class="page-header" id="gallery">
+          <h4>Vintage Store</h4>
+        </div>
+
+  	     <div class="container.fluid">
+          <section>
+		        <div class="row">
+  
+        <span class="col-md-3 chart1" data-percent="73">
+        <span class="col-md-3 label label-default">Gallery</span>
+        <span class="percent"></span>
+        </span>
+
+        <span class="col-md-3 chart2" data-percent="45">
+        <span class="col-md-3 label label-default">Trend</span>
+        <span class="percent"></span>
+        </span>
+
+        <span class="col-md-3 chart3" data-percent="32">
+        <span class="col-md-3 label label-default">Profit</span>
+        <span class="percent"></span>
+        </span>
+
+        <span class="col-md-3 chart4" data-percent="85">
+        <span class="col-md-3 label label-default">Social</span>
+        <span class="percent"></span>
+        </span>
+ 
+         <span class="btn js_update btn btn-primary">Update chart</span>
+          </div></section></div> 
+         </div>
+
+<!-- Charts discription and update chart  end -->
+
+
+
+
+    
+
+
+  
+
+
+
+<!-- features -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+  				<h3>Features</h3>
+  			</div>
+
+  			
+
+  			<hr>
+
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+              <div class="panel-body">
+                <span class="glyphicon glyphicon-ok"></span>
+                <h4>This is the Heading</h4>
+                <p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. </p>
+              </div>
+            </div>
+          </div>
+
+            <div class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+              <div class="panel-body">
+                <span class="glyphicon glyphicon-ok"></span>
+                <h4>This is the Heading</h4>
+                <p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-default text-center">
+              <div class="panel-body">
+                <span class="glyphicon glyphicon-ok"></span>
+                <h4>This is the Heading</h4>
+                <p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. </p>
+              </div>
+            </div>
+          </div>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>This is the Heading</h4>
+  							<p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. </p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>This is the Heading</h4>
+  							<p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. .</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-play-circle"></span>
+  							<h4>This is the Heading</h4>
+  							<p>In an era where everything old is new again, and 'vintage' has long replaced 'cutting-edge' as the qualifier for all things fashionable, we are truly lucky to be living in Sydney. In the past few years the selection of vintage fashion stores has exploded, making it easier than ever before to resemble Audrey Hepburn, James Dean and just about anyone in an episode of Mad Men. </p>
+  						</div>
+  					</div>
+  				</div>
+  			</div><!-- end row -->
+
+		</section>
+	</div><!-- End Container -->
+
+  
+
+
+
+
+
+
+
+
+  <!-- Feedback-->
+    <div class="container">
+      <section>
+        <div class="page-header" id="feedback">
+          <h2>Feedback.<small> Check out the Awesome Feedback</small></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+              <footer>John doe</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+              <footer>John doe</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida quam ac ante rutrum, in mollis ligula mattis. Integer nulla nisi, ullamcorper et posuere vel</p>
+              <footer>John doe</footer>
+            </blockquote>
+          </div>
+        </div><!-- End row -->
+      </section>
+    </div><!--End Container-->
+
+<!-- Footer -->
+
+    <footer>
+      <hr>
+        <div class="container text-center">
+        <h3>Subscribe for newsletter</h3>
+        <p>Enter your name and email</p>
+
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+          </div>
+          <button type="submit" class="btn btn-default">Subscribe</button>
+          
+        </form>
+
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com">Twitter</a></li>
+          <li><a href="http://www.facebook.com">Facebook</a></li>
+          <li><a href="http://www.youtube.com">YouTube</a></li>
+        </ul>
+
+        <p>&copy; Copyright @ 2016 </p>
+
+      </div><!-- end Container-->
+
+
+
+
+      
+
+    </footer>
+
+
+<!-- All Js Scripts -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/chart.min.js"></script>
+  <script src="js/chart-data.js"></script>
+  <script src="js/easypiechart.js"></script>
+  <script src="js/easypiechart-data.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/updatePieChart.js"></script>
+
+
+
+
+<!---   Js for chart button functioning  -->
+  
+  <script>
+  $(function() {
+    var $chart = $('.chart1');
+    $chart.easyPieChart({
+      onStep: function(from, to, percent) {
+        $(this.el).find('.percent').text(Math.round(percent));
+      }
+    });
+    var chart = window.chart = $chart.data('easyPieChart');
+    chart.update($chart.data('percent'));
+    $('.js_update').on('click', function() {
+      chart.update(Math.random()*200-100);
+    });
+  });
+  </script>
+    
+
+   <script>
+  $(function() {
+    var $chart = $('.chart2');
+    $chart.easyPieChart({
+      onStep: function(from, to, percent) {
+        $(this.el).find('.percent').text(Math.round(percent));
+      }
+    });
+    var chart = window.chart = $chart.data('easyPieChart');
+    chart.update($chart.data('percent'));
+    $('.js_update').on('click', function() {
+      chart.update(Math.random()*200-100);
+    });
+  });
+  </script>
+
+ <script>
+  $(function() {
+    var $chart = $('.chart3');
+    $chart.easyPieChart({
+      onStep: function(from, to, percent) {
+        $(this.el).find('.percent').text(Math.round(percent));
+      }
+    });
+    var chart = window.chart = $chart.data('easyPieChart');
+    chart.update($chart.data('percent'));
+    $('.js_update').on('click', function() {
+      chart.update(Math.random()*200-100);
+    });
+  });
+  </script>
+
+   <script>
+  $(function() {
+    var $chart = $('.chart4');
+    $chart.easyPieChart({
+      onStep: function(from, to, percent) {
+        $(this.el).find('.percent').text(Math.round(percent));
+      }
+    });
+    var chart = window.chart = $chart.data('easyPieChart');
+    chart.update($chart.data('percent'));
+    $('.js_update').on('click', function() {
+      chart.update(Math.random()*200-100);
+    });
+  });
+  </script>
+<//---   Js for chart button functioning end ---\\>
+
+
+
+
+
+<script>
+  
+  if (!Function.prototype.bind) {
+    Function.prototype.bind = function (oThis) {
+      if (typeof this !== "function") {
+        
+        throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+      }
+
+      var aArgs = Array.prototype.slice.call(arguments, 1),
+        fToBind = this,
+        fNOP = function () {},
+        fBound = function () {
+          return fToBind.apply(this instanceof fNOP && oThis ? this : oThis,
+        aArgs.concat(Array.prototype.slice.call(arguments)));
+      };
+
+      fNOP.prototype = this.prototype;
+      fBound.prototype = new fNOP();
+
+      return fBound;
+    };
+  }
+  </script>
+
+
+
+
+  <script>
+    $('#calendar').datepicker({
+    });
+
+    !function ($) {
+        $(document).on("click","ul.nav li.parent > a > span.icon", function(){          
+            $(this).find('em:first').toggleClass("glyphicon-minus");      
+        }); 
+        $(".sidebar span.icon").find('em:first').addClass("glyphicon-plus");
+    }(window.jQuery);
+
+    $(window).on('resize', function () {
+      if ($(window).width() > 768) $('#sidebar-collapse').collapse('show')
+    })
+    $(window).on('resize', function () {
+      if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
+    })
+  </script>
+
+
+  <!---This is js file for live piechart -->
+  <script type="text/javascript">
+$(function() {
+    //create instance
+    $('.chart1').easyPieChart({
+        animate: 1000
+    });
+    //update instance after 5 sec
+    setTimeout(function() {
+        $('.chart1').data('easyPieChart').update(40);
+    }, 4000);
+});
+</script>
+
+
+  <script type="text/javascript">
+$(function() {
+    //create instance
+    $('.chart2').easyPieChart({
+        animate: 1000
+    });
+    //update instance after 5 sec
+    setTimeout(function() {
+        $('.chart2').data('easyPieChart').update(10);
+    }, 4000);
+});
+</script>
+
+
+
+  <script type="text/javascript">
+$(function() {
+    //create instance
+    $('.chart3').easyPieChart({
+        animate: 1000
+    });
+    //update instance after 5 sec
+    setTimeout(function() {
+        $('.chart3').data('easyPieChart').update(40);
+    }, 4000);
+});
+</script>
+
+
+
+  <script type="text/javascript">
+$(function() {
+    //create instance
+    $('.chart4').easyPieChart({
+        animate: 1000
+    });
+    //update instance after 5 sec
+    setTimeout(function() {
+        $('.char4').data('easyPieChart').update(40);
+    }, 4000);
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>	
+</html>
